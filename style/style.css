@@ -1,0 +1,62 @@
+/* common shared style */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 30px; */
+}
+
+button {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+
+
+/* header section style */
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 72px;
+}
+
+.hero .content-text * {
+    margin-bottom: 32px;
+    max-width: 531px;
+}
+
+.hero .content-text h1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.hero .content-img img {
+    width: 100%;
+    vertical-align: middle;
+}
