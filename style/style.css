@@ -160,13 +160,22 @@ header {
     font-size: 30px;
     font-weight: 800;
 }
-
-#hot-deal .hot-deal-text * {
-    margin-top: 24px;
+.hot-deal-text h2 .off{
+    color: #E55473;
+}
+.hot-deal-content .hot-deal-text{
+    width: 75%;
     max-width: 545px;
-    align-items: center;
     text-align: center;
 }
+
+#hot-deal .hot-deal-text * {
+    margin-top: 24px;   
+}
+.hot-deal-content .hot-deal-img{
+    max-width: 318px;
+}
+
 
 /* instagram section style */
 #instagram {
@@ -189,12 +198,11 @@ header {
 
 /* news letter section style */
 #newsletter {
-    margin-bottom: 128px;
+    margin: 128px 0;
 }
 
 .newsletter-content {
     background-image: url("../Flower-Asset/Rectangle\ 9.png");
-    background-repeat: no-repeat;
     padding: 122px 0;
 }
 
@@ -212,4 +220,39 @@ header {
     padding: 15px;
     border: none;
     outline: none;
+}
+
+/* Footer section style */
+footer {
+    background: #111010;
+    text-align: center;
+    padding: 128px 0;
+    /* margin-top: 128px; */
+}
+
+footer h2 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 800
+}
+
+footer h2 .flower {
+    color: #E55473;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 13.5px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 32px;   
+}
+
+.small-txt {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+
 }
